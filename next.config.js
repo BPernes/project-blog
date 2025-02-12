@@ -1,7 +1,6 @@
 module.exports = {
-  experimental: {
-    outputFileTracingIncludes: {
-      '/*': ['./content/**/*'],
-    },
+  outputFileTracingIncludes: {
+    "/*": ["./content/**/*"],
   },
+  transpilePackages: ["next-mdx-remote"],
 };
